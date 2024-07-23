@@ -1,0 +1,28 @@
+/* src/styles.css */
+
+/* Base styles */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Mobile view adjustments */
+  @media (max-width: 767px) {
+    .menu {
+      display: none; /* Hide the menu on small screens */
+    }
+  
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-content img {
+      margin-bottom: 10px;
+    }
+  
+    .header-content .icon-button {
+      margin-top: 10px;
+    }
+  }
+  
