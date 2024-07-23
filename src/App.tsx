@@ -1,17 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AppRoutes from './Routes/AppRoutes';
+import { CartProvider } from './context/CartContext';
 import MainLayout from './Components/Layout/MainLayout';
 
+document.title = "ShopEase";
 
 function App() {
   return (
-    <div >
-      {/* <MainLayout/> */}
-        <Router>
-            <AppRoutes/>
-       </Router>
-    </div>
+    <CartProvider>
+      <Router>
+        <AppRoutes />
+      </Router>
+    </CartProvider>
   );
 }
 

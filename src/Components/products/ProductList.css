@@ -1,0 +1,31 @@
+.product-list-container {
+    padding: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4.5%;
+    margin-right:2%;
+  }
+  
+  .search-box {
+    width: 25%; /* Adjust the width as needed */
+  }
+  
+  .product-grid {
+    margin-top: 20px;
+  }
+  
+  .product-grid-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .search-box {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  
+  

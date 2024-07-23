@@ -1,0 +1,114 @@
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .hero-section {
+    background: url('https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  
+  .highlights-section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .highlight-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%; /* Ensure the item takes up full height of its container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .highlight-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .highlight-image {
+    width: 100%;
+    height: 185px; /* Fixed height for consistent card height */
+    object-fit: cover; /* Ensure images are cropped properly */
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-button {
+    font-size: 1rem;
+  }
+  
+  .features-section {
+    margin-bottom: 40px;
+  }
+  
+  .feature-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+    
+    .highlight-item {
+      padding: 10px;
+    }
+  
+    .highlight-name {
+      font-size: 1rem;
+    }
+  
+    .highlight-price {
+      font-size: 1.2rem;
+    }
+  
+    .highlight-button {
+      font-size: 0.9rem;
+    }
+  }
+  
