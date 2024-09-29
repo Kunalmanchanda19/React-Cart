@@ -4,7 +4,8 @@ import ProductItem from './ProductItem';
 import './ProductList.css'; // Ensure this CSS file is imported
 
 const products = [
-  { id: 1, name: 'OnePlus Nord CE4 Lite 5G (Super Silver) smart phone', price: 22998, image: 'https://image01-in.oneplus.net/media/202406/20/5d13e6b687e10427a2ac7a5a0ca391e4.png?x-amz-process=image/format,webp/quality,Q_80' },
+  { id: 1, name: 'OnePlus Nord CE4 Lite 5G (Super Silver) smart phone', price: 22998, image: 'https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/24/full/1719237006-9214.jpeg?im=FeatureCrop,size=(826,465)' },
+
   { id: 2, name: 'Canon EOS R100 24.1 MP Mirrorless Camera (Black) ', price: 46900, image: 'https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043' },
   { id: 3, name: 'Sonex Trending watch for women', price: 1999, image: 'https://mapsystemsindia.com/images/blog/a-white-background-makes-your-product-stand-out.webp' },
   { id: 4, name: 'Bourge Trending Shoes for men', price: 1499, image: 'https://img.pixelz.com/blog/photograph-white-products-on-white-backgrounds-ecommerce/white-product-w-bg-banner.jpg?w=1000' },

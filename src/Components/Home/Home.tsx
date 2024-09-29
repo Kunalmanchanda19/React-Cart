@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Home.css'; // Ensure to create/update this CSS file
 
 const products = [
-  { id: 1, name: 'OnePlus Nord CE4 Lite 5G (Super Silver) smart phone', price: 22998, image: 'https://media.licdn.com/dms/image/C5112AQHIEn-6EbUClA/article-inline_image-shrink_400_744/0/1564201749491?e=1727308800&v=beta&t=k1Y-7LG_7hwawJjErei5hk_5VNnyKRUFHW6ouDr_QrY' },
+  { id: 1, name: 'OnePlus Nord CE4 Lite 5G (Super Silver) smart phone', price: 22998, image: 'https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/24/full/1719237006-9214.jpeg?im=FeatureCrop,size=(826,465)' },
   { id: 2, name: 'Canon EOS R100 24.1 MP Mirrorless Camera (Black) ', price: 46900, image: 'https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043' },
   { id: 3, name: 'Dell inspiron 15 3501 Laptop (8GB + 512GB)', price: 49960, image: 'https://cdn.pixabay.com/photo/2017/08/21/15/37/laptop-2665794_960_720.jpg' },
  
